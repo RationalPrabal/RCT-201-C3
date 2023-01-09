@@ -11,7 +11,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 export default function Home({data,data1}) {
   const [theme,setTheme]= React.useState(false)
-  console.log(data)
+  
   return (
     <>
     <Navbar theme={theme} setTheme={setTheme}/>
